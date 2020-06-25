@@ -1,0 +1,39 @@
+{
+  "name": "remark-notices",
+  "version": "1.0.0",
+  "description": "A remark plugin that allows markdown defined notices, warnings, and errors.",
+  "main": "dist/remark-notices.js",
+  "scripts": {
+    "build": "microbundle build --no-compress"
+  },
+  "umd:main": "dist/remark-notices.umd.js",
+  "module": "dist/remark-notices.mjs",
+  "source": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkhax/remark-notices.git"
+  },
+  "keywords": [
+    "remark",
+    "markdown",
+    "notices",
+    "alerts",
+    "warnings",
+    "plugin"
+  ],
+  "author": "Tyler Hancock (Darkhax)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkhax/remark-notices/issues"
+  },
+  "homepage": "https://github.com/Darkhax/remark-notices#readme",
+  "peerDependencies": {
+    "remark": "12.x"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.2",
+    "remark": "^12.0.0",
+    "remark-html": "^11.0.2",
+    "remark-react": "^7.0.1"
+  }
+}
